@@ -1,0 +1,40 @@
+body {
+	background-color: rgb(126, 237, 158);
+}
+
+.logo {
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav {
+	display: flex;
+	align-self: center;
+	justify-content: space-around;
+	background-color: tomato;
+}
+
+.nav_list {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+.nav_item {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.nav_item a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav_item a:hover {
+	color: aqua;
+}
+
+.image {
+	width: 200px;
+	height: 150px;
+}
